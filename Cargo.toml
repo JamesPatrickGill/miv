@@ -1,0 +1,33 @@
+[package]
+name = "miv"
+version = "0.1.0"
+authors = ["JamesPatrickGill <jpgilldev@gmail.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+better-panic = "0.3.0"
+clap = { version = "4.4.11", features = [
+  "derive",
+  "cargo",
+  "wrap_help",
+  "unicode",
+  "string",
+  "unstable-styles",
+] }
+color-eyre = "0.6.2"
+crossterm = "0.27.0"
+directories = "5.0.1"
+human-panic = "1.2.2"
+lazy_static = "1.4.0"
+libc = "0.2.151"
+log = "0.4.20"
+ratatui = "0.25.0"
+strip-ansi-escapes = "0.2.0"
+strum = "0.25"
+strum_macros = "0.25"
+tracing = "0.1.40"
+tracing-error = "0.2.0"
+tracing-subscriber = { version = "0.3.18", features = ["env-filter", "serde"] }
+tree-sitter-highlight = "0.20.1"
+tree-sitter-rust = "0.20.4"
