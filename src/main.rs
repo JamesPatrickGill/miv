@@ -4,12 +4,12 @@ use clap::Parser;
 use crossterm::cursor::SetCursorStyle;
 use crossterm::execute;
 use log::info;
-use miv::app::{App, AppResult, InputMode};
-use miv::cli::Cli;
-use miv::event::Event;
-use miv::input_handling::InputStack;
-use miv::tui::Tui;
-use miv::utils::initialize_logging;
+use miv_editor::app::{App, AppResult, InputMode};
+use miv_editor::cli::Cli;
+use miv_editor::event::Event;
+use miv_editor::input_handling::InputStack;
+use miv_editor::tui::Tui;
+use miv_editor::utils::initialize_logging;
 
 fn main() -> AppResult<()> {
     // Start logging
