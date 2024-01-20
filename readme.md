@@ -2,10 +2,14 @@
 
 A barely function editor ...if your file is shorter than your terminal height.
 
-### Install
+### Get started
 
 ```bash
+# Install binary
 cargo install miv-editor
+
+# Run miv-editor
+miv <RELATIVE_FILEPATH>
 ```
 
 ### Screenshot
