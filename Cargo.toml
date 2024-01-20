@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["JamesPatrickGill <jpgilldev@gmail.com>"]
 license = "MIT"
 edition = "2021"
+description = "A toy text editor with pretty bad functionality"
 
 [dependencies]
 better-panic = "0.3.0"
